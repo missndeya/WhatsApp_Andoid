@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/images"
+
+        android:layout_height="230dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gris"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Entrer votre login"
+            android:layout_marginTop="11dp"
+            android:background="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/inscriptionemail"
+
+            android:padding="15dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_height="50dp"
+            android:hint="Entrer votre mot de passe "
+            android:id="@+id/inscriptionmdp"
+            android:background="#fff"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="11dp"
+            android:hint="Confirmer votre mot de passe "
+            android:id="@+id/inscriptionconfmdp"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/inscription_login"
+
+        android:text="Valider"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@color/lighte"/>
+
+    </LinearLayout>
+
+</ScrollView>

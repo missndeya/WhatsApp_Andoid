@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bleu">#03A9F4</color>
+    <color name="blanc">#fff</color>
+    <color name="vert">#1DE9B6</color>
+    <color name="noir">#000000</color>
+    <color name="gris">#E8E3E3</color>
+    <color name="bleuclair">#00E5FF</color>
+	
+	<color name="colorPrimaryndeye">#008577</color>
+    <color name="colorPrimaryDarkndeye">#00574B</color>
+    <color name="colorAccentndeye">#D81B60</color>
+    <color name="grisndeye">#B7BAB7</color>
+    <color name="transpa">#DADCDA</color>
+    <color name="grise">#F0C0C0</color>
+    <color name="vertndeye">#00b894</color>
+    <color name="rouge">#d63031</color>
+    <color name="violet">#E333FF</color>
+    <color name="jaune">#FFF333</color>
+    <color name="lime">#33FF3F</color>
+    <color name="aqua">#33FCFF</color>
+    <color name="bleundeye">#3364FF</color>
+    <color name="pink">#FF6ED5</color>
+    <color name="black">#000000</color>
+    <color name="light">#27B7F8</color>
+    <color name="lighte">#1E90FF</color>
+    <color name="login">#00BFFF</color>
+    <color name="lightee">#18639E</color>
+</resources>
